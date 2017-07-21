@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBEBA6E895EC763A932CD59E /* Pods_SYTabBarExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A52C5D36C0337A07AB7B8A /* Pods_SYTabBarExample.framework */; };
+		F914753B1EEA2DEE009C20AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F914753A1EEA2DEE009C20AB /* AppDelegate.swift */; };
+		F914753D1EEA2DEE009C20AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F914753C1EEA2DEE009C20AB /* ViewController.swift */; };
+		F91475401EEA2DEE009C20AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F914753E1EEA2DEE009C20AB /* Main.storyboard */; };
+		F91475421EEA2DEE009C20AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F91475411EEA2DEE009C20AB /* Assets.xcassets */; };
+		F91475451EEA2DEE009C20AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F91475431EEA2DEE009C20AB /* LaunchScreen.storyboard */; };
+		F91475501EEA2DEF009C20AB /* SYTabBarExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F914754F1EEA2DEF009C20AB /* SYTabBarExampleTests.swift */; };
+		F914755B1EEA2DEF009C20AB /* SYTabBarExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F914755A1EEA2DEF009C20AB /* SYTabBarExampleUITests.swift */; };
+		F91475691EEA2E42009C20AB /* SYNavTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91475681EEA2E42009C20AB /* SYNavTabBar.swift */; };
+		F914756B1EEA2E6A009C20AB /* SocietylViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F914756A1EEA2E6A009C20AB /* SocietylViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F914754C1EEA2DEF009C20AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F914752F1EEA2DEE009C20AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F91475361EEA2DEE009C20AB;
+			remoteInfo = SYTabBarExample;
+		};
+		F91475571EEA2DEF009C20AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F914752F1EEA2DEE009C20AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F91475361EEA2DEE009C20AB;
+			remoteInfo = SYTabBarExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5FF24A9A391E226006C33521 /* Pods-SYTabBarExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYTabBarExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SYTabBarExample/Pods-SYTabBarExample.debug.xcconfig"; sourceTree = "<group>"; };
+		6920E745FB12145F0E5135F6 /* Pods-SYTabBarExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYTabBarExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-SYTabBarExample/Pods-SYTabBarExample.release.xcconfig"; sourceTree = "<group>"; };
+		D1A52C5D36C0337A07AB7B8A /* Pods_SYTabBarExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYTabBarExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F91475371EEA2DEE009C20AB /* SYTabBarExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYTabBarExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F914753A1EEA2DEE009C20AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F914753C1EEA2DEE009C20AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F914753F1EEA2DEE009C20AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F91475411EEA2DEE009C20AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F91475441EEA2DEE009C20AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F91475461EEA2DEE009C20AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F914754B1EEA2DEF009C20AB /* SYTabBarExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYTabBarExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F914754F1EEA2DEF009C20AB /* SYTabBarExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SYTabBarExampleTests.swift; sourceTree = "<group>"; };
+		F91475511EEA2DEF009C20AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F91475561EEA2DEF009C20AB /* SYTabBarExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYTabBarExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F914755A1EEA2DEF009C20AB /* SYTabBarExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SYTabBarExampleUITests.swift; sourceTree = "<group>"; };
+		F914755C1EEA2DEF009C20AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F91475681EEA2E42009C20AB /* SYNavTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SYNavTabBar.swift; sourceTree = "<group>"; };
+		F914756A1EEA2E6A009C20AB /* SocietylViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocietylViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F91475341EEA2DEE009C20AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBEBA6E895EC763A932CD59E /* Pods_SYTabBarExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F91475481EEA2DEF009C20AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F91475531EEA2DEF009C20AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1884D8FC58A35720363C2BAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1A52C5D36C0337A07AB7B8A /* Pods_SYTabBarExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E00583932ED6F23B60109AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5FF24A9A391E226006C33521 /* Pods-SYTabBarExample.debug.xcconfig */,
+				6920E745FB12145F0E5135F6 /* Pods-SYTabBarExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F914752E1EEA2DEE009C20AB = {
+			isa = PBXGroup;
+			children = (
+				F91475391EEA2DEE009C20AB /* SYTabBarExample */,
+				F914754E1EEA2DEF009C20AB /* SYTabBarExampleTests */,
+				F91475591EEA2DEF009C20AB /* SYTabBarExampleUITests */,
+				F91475381EEA2DEE009C20AB /* Products */,
+				2E00583932ED6F23B60109AE /* Pods */,
+				1884D8FC58A35720363C2BAE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F91475381EEA2DEE009C20AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F91475371EEA2DEE009C20AB /* SYTabBarExample.app */,
+				F914754B1EEA2DEF009C20AB /* SYTabBarExampleTests.xctest */,
+				F91475561EEA2DEF009C20AB /* SYTabBarExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F91475391EEA2DEE009C20AB /* SYTabBarExample */ = {
+			isa = PBXGroup;
+			children = (
+				F914753A1EEA2DEE009C20AB /* AppDelegate.swift */,
+				F914753C1EEA2DEE009C20AB /* ViewController.swift */,
+				F914756A1EEA2E6A009C20AB /* SocietylViewController.swift */,
+				F91475681EEA2E42009C20AB /* SYNavTabBar.swift */,
+				F914753E1EEA2DEE009C20AB /* Main.storyboard */,
+				F91475411EEA2DEE009C20AB /* Assets.xcassets */,
+				F91475431EEA2DEE009C20AB /* LaunchScreen.storyboard */,
+				F91475461EEA2DEE009C20AB /* Info.plist */,
+			);
+			path = SYTabBarExample;
+			sourceTree = "<group>";
+		};
+		F914754E1EEA2DEF009C20AB /* SYTabBarExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				F914754F1EEA2DEF009C20AB /* SYTabBarExampleTests.swift */,
+				F91475511EEA2DEF009C20AB /* Info.plist */,
+			);
+			path = SYTabBarExampleTests;
+			sourceTree = "<group>";
+		};
+		F91475591EEA2DEF009C20AB /* SYTabBarExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F914755A1EEA2DEF009C20AB /* SYTabBarExampleUITests.swift */,
+				F914755C1EEA2DEF009C20AB /* Info.plist */,
+			);
+			path = SYTabBarExampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F91475361EEA2DEE009C20AB /* SYTabBarExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F914755F1EEA2DEF009C20AB /* Build configuration list for PBXNativeTarget "SYTabBarExample" */;
+			buildPhases = (
+				2384E3CD60C491978AB52AA5 /* [CP] Check Pods Manifest.lock */,
+				F91475331EEA2DEE009C20AB /* Sources */,
+				F91475341EEA2DEE009C20AB /* Frameworks */,
+				F91475351EEA2DEE009C20AB /* Resources */,
+				D91D22F4A296549AAFC38D0D /* [CP] Embed Pods Frameworks */,
+				10CE3B1E9F7B4A8E758A12D2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SYTabBarExample;
+			productName = SYTabBarExample;
+			productReference = F91475371EEA2DEE009C20AB /* SYTabBarExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F914754A1EEA2DEF009C20AB /* SYTabBarExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F91475621EEA2DEF009C20AB /* Build configuration list for PBXNativeTarget "SYTabBarExampleTests" */;
+			buildPhases = (
+				F91475471EEA2DEF009C20AB /* Sources */,
+				F91475481EEA2DEF009C20AB /* Frameworks */,
+				F91475491EEA2DEF009C20AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F914754D1EEA2DEF009C20AB /* PBXTargetDependency */,
+			);
+			name = SYTabBarExampleTests;
+			productName = SYTabBarExampleTests;
+			productReference = F914754B1EEA2DEF009C20AB /* SYTabBarExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F91475551EEA2DEF009C20AB /* SYTabBarExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F91475651EEA2DEF009C20AB /* Build configuration list for PBXNativeTarget "SYTabBarExampleUITests" */;
+			buildPhases = (
+				F91475521EEA2DEF009C20AB /* Sources */,
+				F91475531EEA2DEF009C20AB /* Frameworks */,
+				F91475541EEA2DEF009C20AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F91475581EEA2DEF009C20AB /* PBXTargetDependency */,
+			);
+			name = SYTabBarExampleUITests;
+			productName = SYTabBarExampleUITests;
+			productReference = F91475561EEA2DEF009C20AB /* SYTabBarExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F914752F1EEA2DEE009C20AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Yan;
+				TargetAttributes = {
+					F91475361EEA2DEE009C20AB = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					F914754A1EEA2DEF009C20AB = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F91475361EEA2DEE009C20AB;
+					};
+					F91475551EEA2DEF009C20AB = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F91475361EEA2DEE009C20AB;
+					};
+				};
+			};
+			buildConfigurationList = F91475321EEA2DEE009C20AB /* Build configuration list for PBXProject "SYTabBarExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F914752E1EEA2DEE009C20AB;
+			productRefGroup = F91475381EEA2DEE009C20AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F91475361EEA2DEE009C20AB /* SYTabBarExample */,
+				F914754A1EEA2DEF009C20AB /* SYTabBarExampleTests */,
+				F91475551EEA2DEF009C20AB /* SYTabBarExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F91475351EEA2DEE009C20AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F91475451EEA2DEE009C20AB /* LaunchScreen.storyboard in Resources */,
+				F91475421EEA2DEE009C20AB /* Assets.xcassets in Resources */,
+				F91475401EEA2DEE009C20AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F91475491EEA2DEF009C20AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F91475541EEA2DEF009C20AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10CE3B1E9F7B4A8E758A12D2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SYTabBarExample/Pods-SYTabBarExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2384E3CD60C491978AB52AA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D91D22F4A296549AAFC38D0D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SYTabBarExample/Pods-SYTabBarExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F91475331EEA2DEE009C20AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F91475691EEA2E42009C20AB /* SYNavTabBar.swift in Sources */,
+				F914753D1EEA2DEE009C20AB /* ViewController.swift in Sources */,
+				F914756B1EEA2E6A009C20AB /* SocietylViewController.swift in Sources */,
+				F914753B1EEA2DEE009C20AB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F91475471EEA2DEF009C20AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F91475501EEA2DEF009C20AB /* SYTabBarExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F91475521EEA2DEF009C20AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F914755B1EEA2DEF009C20AB /* SYTabBarExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F914754D1EEA2DEF009C20AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F91475361EEA2DEE009C20AB /* SYTabBarExample */;
+			targetProxy = F914754C1EEA2DEF009C20AB /* PBXContainerItemProxy */;
+		};
+		F91475581EEA2DEF009C20AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F91475361EEA2DEE009C20AB /* SYTabBarExample */;
+			targetProxy = F91475571EEA2DEF009C20AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F914753E1EEA2DEE009C20AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F914753F1EEA2DEE009C20AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F91475431EEA2DEE009C20AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F91475441EEA2DEE009C20AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F914755D1EEA2DEF009C20AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F914755E1EEA2DEF009C20AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F91475601EEA2DEF009C20AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FF24A9A391E226006C33521 /* Pods-SYTabBarExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SYTabBarExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cat.SYTabBarExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F91475611EEA2DEF009C20AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6920E745FB12145F0E5135F6 /* Pods-SYTabBarExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SYTabBarExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cat.SYTabBarExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F91475631EEA2DEF009C20AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SYTabBarExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cat.SYTabBarExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYTabBarExample.app/SYTabBarExample";
+			};
+			name = Debug;
+		};
+		F91475641EEA2DEF009C20AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SYTabBarExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cat.SYTabBarExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYTabBarExample.app/SYTabBarExample";
+			};
+			name = Release;
+		};
+		F91475661EEA2DEF009C20AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SYTabBarExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cat.SYTabBarExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SYTabBarExample;
+			};
+			name = Debug;
+		};
+		F91475671EEA2DEF009C20AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SYTabBarExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cat.SYTabBarExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SYTabBarExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F91475321EEA2DEE009C20AB /* Build configuration list for PBXProject "SYTabBarExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F914755D1EEA2DEF009C20AB /* Debug */,
+				F914755E1EEA2DEF009C20AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F914755F1EEA2DEF009C20AB /* Build configuration list for PBXNativeTarget "SYTabBarExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F91475601EEA2DEF009C20AB /* Debug */,
+				F91475611EEA2DEF009C20AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F91475621EEA2DEF009C20AB /* Build configuration list for PBXNativeTarget "SYTabBarExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F91475631EEA2DEF009C20AB /* Debug */,
+				F91475641EEA2DEF009C20AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F91475651EEA2DEF009C20AB /* Build configuration list for PBXNativeTarget "SYTabBarExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F91475661EEA2DEF009C20AB /* Debug */,
+				F91475671EEA2DEF009C20AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F914752F1EEA2DEE009C20AB /* Project object */;
+}
